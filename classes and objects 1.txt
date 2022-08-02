@@ -2,6 +2,9 @@
 This tutorial is to understant the class and obj
 By creating the object the type of the object is class type in this example the object type is person
 By creating the object it automatically calls the class initializers
+
+This is link for visualising code in real IDE https://pl.kotl.in/mjh6yCTnD
+
  */
 fun main() {
     var Ram = Person("Ram", "Shrestha")
