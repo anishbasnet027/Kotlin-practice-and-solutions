@@ -1,0 +1,18 @@
+/**
+This tutorial is to understant the class and obj
+By creating the object the type of the object is class type in this example the object type is person
+By creating the object it automatically calls the class initializers
+ */
+fun main() {
+    var Ram = Person("Ram", "Shrestha")
+    var Sam = Person("Sam", "Pradhan")
+    var Default=Person()
+    var DefaultLastName = Person(firstName="Henry")
+}
+
+class Person(firstName:String="Jhon", lastName:String="Doe"){
+    
+    init{
+        println("Person created Successfully name= $firstName $lastName")
+    }
+}
